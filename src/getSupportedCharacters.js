@@ -1,7 +1,7 @@
-const characterMap = require('./characterMap');
+const { transliterations } = require('simply-slugy');
 
 function getSupportedCharacters() {
-    return characterMap;
+    return transliterations;
 }
 
 module.exports = getSupportedCharacters;

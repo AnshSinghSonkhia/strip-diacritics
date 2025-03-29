@@ -1,0 +1,39 @@
+{
+  "name": "strip-diacritics",
+  "version": "1.0.0",
+  "description": "Remove diacritics (accents, special characters, and marks) from text, making it easier to normalize, search, and process text across multiple languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/strip-diacritics.git"
+  },
+  "keywords": [
+    "diacritics",
+    "strip-accents",
+    "remove-diacritics",
+    "normalize-text",
+    "text-processing",
+    "transliteration",
+    "slugify",
+    "remove-special-characters",
+    "unicode-normalization",
+    "search-optimization",
+    "multilingual-support",
+    "normalize",
+    "unicode",
+    "text",
+    "slug"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/strip-diacritics/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/strip-diacritics#readme",
+  "dependencies": {
+    "simply-slugy": "^1.1.0"
+  }
+}

@@ -1,8 +1,24 @@
 # strip-diacritics
 
-Remove diacritics (accents, special characters, and marks) from text, making it easier to normalize, search, and process text in multiple languages.
+Remove diacritics (accents, special characters, and marks) from text, making it easier to normalize, search, and process text across multiple languages.
 
-# Usage
+[![npm](https://img.shields.io/npm/v/strip-diacritics.svg)](https://www.npmjs.com/package/strip-diacritics)  [![License](https://img.shields.io/npm/l/strip-diacritics.svg)](LICENSE) 
+
+# 📦 Installation
+
+Install via npm
+
+```sh
+npm i strip-diacritics
+```
+
+Install via yarn
+
+```sh
+yarn add strip-diacritics
+```
+
+# 🚀 Usage
 
 ```js
 const { removeDiacritics, hasDiacritics, replaceDiacritics, normalizeText, getSupportedCharacters } = require('strip-diacritics');
@@ -32,7 +48,7 @@ console.log(normalizeText("Zażółć gęślą jaźń", "pl"));
 console.log(getSupportedCharacters());
 ```
 
-# API Reference
+# 📜 API Reference
 
 | Function Name            | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
